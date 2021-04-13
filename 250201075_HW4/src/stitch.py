@@ -5,6 +5,9 @@ import numpy as np
 from cv2 import cv2
 from matplotlib import pyplot as plt
 
+# there would be smarter (functional) implementation on this code. I couldn't achieve to do that because
+# of the density of my exam and homework schedule.
+
 img00 = cv2.imread("data/goldengate-00.png", cv2.IMREAD_GRAYSCALE)
 img01 = cv2.imread("data/goldengate-01.png", cv2.IMREAD_GRAYSCALE)
 img02 = cv2.imread("data/goldengate-02.png", cv2.IMREAD_GRAYSCALE)
